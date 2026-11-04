@@ -1,0 +1,100 @@
+{
+    "items": [
+        {
+            "name": "Dedo Entrenado",
+            "description": "Tus clics son un poco más fuertes. +1 por clic.",
+            "price": 15,
+            "icon": "hand-left"
+        },
+        {
+            "name": "Ratón Gaming",
+            "description": "Un ratón de alta precisión para clicar más rápido.",
+            "price": 50,
+            "icon": "hardware-chip"
+        },
+        {
+            "name": "Café Doble",
+            "description": "La cafeína te da energía extra. Genera clics automáticos.",
+            "price": 120,
+            "icon": "cafe"
+        },
+        {
+            "name": "Alerta de Clics",
+            "description": "Te avisa de cada oportunidad de clic. Bonus pasivo.",
+            "price": 250,
+            "icon": "alert"
+        },
+        {
+            "name": "Rayo Veloz",
+            "description": "Electriza tus dedos. Multiplica tus clics x2.",
+            "price": 500,
+            "icon": "flash"
+        },
+        {
+            "name": "Bombilla Genial",
+            "description": "Una gran idea que mejora la eficiencia de todo.",
+            "price": 900,
+            "icon": "bulb"
+        },
+        {
+            "name": "Engranaje Automático",
+            "description": "Automatiza el proceso y genera clics por segundo.",
+            "price": 1500,
+            "icon": "cog"
+        },
+        {
+            "name": "Ordenador Potente",
+            "description": "Un PC dedicado que clica por ti día y noche.",
+            "price": 2800,
+            "icon": "desktop"
+        },
+        {
+            "name": "Granja de Clics",
+            "description": "Una pequeña granja de bots que produce clics sin parar.",
+            "price": 4500,
+            "icon": "server"
+        },
+        {
+            "name": "Red Global",
+            "description": "Conecta tu imperio de clics con todo el planeta.",
+            "price": 8000,
+            "icon": "globe"
+        },
+        {
+            "name": "Cohete Impulsor",
+            "description": "Lanza tu producción de clics por las nubes.",
+            "price": 15000,
+            "icon": "rocket"
+        },
+        {
+            "name": "Escudo Anti-Lag",
+            "description": "Protege tu producción de cualquier ralentización.",
+            "price": 28000,
+            "icon": "shield-checkmark"
+        },
+        {
+            "name": "Trofeo del Campeón",
+            "description": "Demuestra tu maestría. Gran bonus global de clics.",
+            "price": 50000,
+            "icon": "trophy"
+        },
+        {
+            "name": "Diamante Puro",
+            "description": "Un tesoro que multiplica el valor de cada clic.",
+            "price": 100000,
+            "icon": "diamond"
+        },
+        {
+            "name": "Portal Cósmico",
+            "description": "Abre una puerta a otra dimensión de clics infinitos.",
+            "price": 250000,
+            "icon": "planet"
+        },
+        {
+            "name": "Corona del Rey Clicker",
+            "description": "El máximo honor. Poder absoluto sobre los clics.",
+            "price": 1000000,
+            "icon": "ribbon"
+        }
+    ]
+}
