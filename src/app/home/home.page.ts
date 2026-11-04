@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton,
   ToastController, IonCol, IonGrid, IonRow, ModalController } from '@ionic/angular';
 
@@ -21,7 +21,7 @@ export class HomePage implements OnInit{
   available_items: string[] = []; // Items from JSON
   enabled_items: string[] = []; // Bought Items
 
-  constructor(private toastController: ToastController, private modalCtrl: ModalController) {}
+  constructor(private toastController: ToastController, private modalCtrl: ModalController, private cdr: ChangeDetectorRef) {}
 
   ngOnInit() {
     this.contador = Number(localStorage.getItem('clicks'));
@@ -50,7 +50,8 @@ export class HomePage implements OnInit{
 
     }
 
-    window.location.reload();
+    this.cdr.detectChanges();
+    //window.location.reload();
     
   }
 
